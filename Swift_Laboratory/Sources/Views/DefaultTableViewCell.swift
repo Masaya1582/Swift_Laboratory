@@ -10,13 +10,15 @@ import UIKit
 
 class DefaultTableViewCell: UITableViewCell {
 
+    @IBOutlet private weak var itemLabel: UILabel!
+
     override func prepareForReuse() {
         super.prepareForReuse()
-
+        itemLabel.text = nil
     }
     
-    func configure() {
-
+    func configure(_ name: String) {
+        itemLabel.text = name
     }
     
 }
