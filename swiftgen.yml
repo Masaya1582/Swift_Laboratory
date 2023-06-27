@@ -1,0 +1,18 @@
+xcassets:
+  inputs:
+     - Swift_Laboratory/Resources/Assets.xcassets
+     - Swift_Laboratory/Resources/Colors.xcassets
+  outputs:
+    templateName: swift5
+    output: Swift_Laboratory/Generated/Assets.swift
+strings:
+  inputs: Swift_Laboratory/Resources/Localizable.strings
+  outputs:
+    templateName: structured-swift5
+    output: Swift_Laboratory/Generated/LocalizableStrings.swift
+fonts:
+  inputs: Swift_Laboratory/Resources/Fonts
+  outputs:
+    templateName: swift5
+    output: Swift_Laboratory/Generated/Fonts.swift
+

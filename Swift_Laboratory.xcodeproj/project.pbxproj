@@ -13,6 +13,17 @@
 		1E8D4E4A2A4A6E2700ABACEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E8D4E482A4A6E2700ABACEA /* LaunchScreen.storyboard */; };
 		1E8D4E532A4A6E4A00ABACEA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8D4E512A4A6E4A00ABACEA /* HomeViewController.swift */; };
 		1E8D4E542A4A6E4A00ABACEA /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E8D4E522A4A6E4A00ABACEA /* HomeViewController.xib */; };
+		1E8D4E5E2A4A702B00ABACEA /* DefaultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8D4E5D2A4A702B00ABACEA /* DefaultViewModel.swift */; };
+		1E8D4E612A4A704400ABACEA /* DefaultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8D4E5F2A4A704400ABACEA /* DefaultTableViewCell.swift */; };
+		1E8D4E622A4A704400ABACEA /* DefaultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E8D4E602A4A704400ABACEA /* DefaultTableViewCell.xib */; };
+		1E8D4E642A4A70A400ABACEA /* DefaultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8D4E632A4A70A400ABACEA /* DefaultModel.swift */; };
+		1E8D4E662A4A714E00ABACEA /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8D4E652A4A714E00ABACEA /* Assets.swift */; };
+		1E8D4E682A4A715B00ABACEA /* LocalizableStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8D4E672A4A715B00ABACEA /* LocalizableStrings.swift */; };
+		1E8D4E6A2A4A716100ABACEA /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8D4E692A4A716100ABACEA /* Fonts.swift */; };
+		1E8D4E6C2A4A717000ABACEA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E8D4E6B2A4A717000ABACEA /* Colors.xcassets */; };
+		1E8D4E6E2A4A717E00ABACEA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E8D4E6D2A4A717E00ABACEA /* Localizable.strings */; };
+		1E8D4E712A4A720500ABACEA /* Alkatra-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E8D4E702A4A720500ABACEA /* Alkatra-VariableFont_wght.ttf */; };
+		659D30E6542C1414D8A99AF4 /* Pods_Swift_Laboratory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249C898C60807A337D30CD01 /* Pods_Swift_Laboratory.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,19 @@
 		1E8D4E4B2A4A6E2700ABACEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E8D4E512A4A6E4A00ABACEA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		1E8D4E522A4A6E4A00ABACEA /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		1E8D4E5D2A4A702B00ABACEA /* DefaultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultViewModel.swift; sourceTree = "<group>"; };
+		1E8D4E5F2A4A704400ABACEA /* DefaultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTableViewCell.swift; sourceTree = "<group>"; };
+		1E8D4E602A4A704400ABACEA /* DefaultTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DefaultTableViewCell.xib; sourceTree = "<group>"; };
+		1E8D4E632A4A70A400ABACEA /* DefaultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultModel.swift; sourceTree = "<group>"; };
+		1E8D4E652A4A714E00ABACEA /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		1E8D4E672A4A715B00ABACEA /* LocalizableStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableStrings.swift; sourceTree = "<group>"; };
+		1E8D4E692A4A716100ABACEA /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		1E8D4E6B2A4A717000ABACEA /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		1E8D4E6D2A4A717E00ABACEA /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		1E8D4E702A4A720500ABACEA /* Alkatra-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alkatra-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		249C898C60807A337D30CD01 /* Pods_Swift_Laboratory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_Laboratory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		582054BC86E262BBDB22B5BD /* Pods-Swift_Laboratory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift_Laboratory.debug.xcconfig"; path = "Target Support Files/Pods-Swift_Laboratory/Pods-Swift_Laboratory.debug.xcconfig"; sourceTree = "<group>"; };
+		CD91C141781CB6F84993E405 /* Pods-Swift_Laboratory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift_Laboratory.release.xcconfig"; path = "Target Support Files/Pods-Swift_Laboratory/Pods-Swift_Laboratory.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				659D30E6542C1414D8A99AF4 /* Pods_Swift_Laboratory.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +67,8 @@
 			children = (
 				1E8D4E3C2A4A6E2600ABACEA /* Swift_Laboratory */,
 				1E8D4E3B2A4A6E2600ABACEA /* Products */,
+				9817D881B026DED6C97F494A /* Pods */,
+				C700862D1729F054E5F75A6B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +83,115 @@
 		1E8D4E3C2A4A6E2600ABACEA /* Swift_Laboratory */ = {
 			isa = PBXGroup;
 			children = (
+				1E8D4E572A4A6FD000ABACEA /* Resources */,
+				1E8D4E562A4A6FCB00ABACEA /* Sources */,
+				1E8D4E552A4A6FC700ABACEA /* Generated */,
 				1E8D4E3D2A4A6E2600ABACEA /* AppDelegate.swift */,
 				1E8D4E3F2A4A6E2600ABACEA /* SceneDelegate.swift */,
-				1E8D4E512A4A6E4A00ABACEA /* HomeViewController.swift */,
-				1E8D4E522A4A6E4A00ABACEA /* HomeViewController.xib */,
+			);
+			path = Swift_Laboratory;
+			sourceTree = "<group>";
+		};
+		1E8D4E552A4A6FC700ABACEA /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				1E8D4E652A4A714E00ABACEA /* Assets.swift */,
+				1E8D4E672A4A715B00ABACEA /* LocalizableStrings.swift */,
+				1E8D4E692A4A716100ABACEA /* Fonts.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		1E8D4E562A4A6FCB00ABACEA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1E8D4E5B2A4A701500ABACEA /* Models */,
+				1E8D4E5A2A4A701200ABACEA /* Views */,
+				1E8D4E592A4A700F00ABACEA /* ViewModels */,
+				1E8D4E582A4A700900ABACEA /* ViewControllers */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		1E8D4E572A4A6FD000ABACEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				1E8D4E462A4A6E2700ABACEA /* Assets.xcassets */,
+				1E8D4E6B2A4A717000ABACEA /* Colors.xcassets */,
+				1E8D4E6D2A4A717E00ABACEA /* Localizable.strings */,
+				1E8D4E6F2A4A718700ABACEA /* Fonts */,
 				1E8D4E482A4A6E2700ABACEA /* LaunchScreen.storyboard */,
 				1E8D4E4B2A4A6E2700ABACEA /* Info.plist */,
 			);
-			path = Swift_Laboratory;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1E8D4E582A4A700900ABACEA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1E8D4E5C2A4A701B00ABACEA /* Home */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1E8D4E592A4A700F00ABACEA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1E8D4E5D2A4A702B00ABACEA /* DefaultViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1E8D4E5A2A4A701200ABACEA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1E8D4E5F2A4A704400ABACEA /* DefaultTableViewCell.swift */,
+				1E8D4E602A4A704400ABACEA /* DefaultTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1E8D4E5B2A4A701500ABACEA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1E8D4E632A4A70A400ABACEA /* DefaultModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1E8D4E5C2A4A701B00ABACEA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1E8D4E512A4A6E4A00ABACEA /* HomeViewController.swift */,
+				1E8D4E522A4A6E4A00ABACEA /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1E8D4E6F2A4A718700ABACEA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1E8D4E702A4A720500ABACEA /* Alkatra-VariableFont_wght.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9817D881B026DED6C97F494A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				582054BC86E262BBDB22B5BD /* Pods-Swift_Laboratory.debug.xcconfig */,
+				CD91C141781CB6F84993E405 /* Pods-Swift_Laboratory.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C700862D1729F054E5F75A6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				249C898C60807A337D30CD01 /* Pods_Swift_Laboratory.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E8D4E4E2A4A6E2700ABACEA /* Build configuration list for PBXNativeTarget "Swift_Laboratory" */;
 			buildPhases = (
+				9C21051614332F08276E543E /* [CP] Check Pods Manifest.lock */,
 				1E8D4E362A4A6E2600ABACEA /* Sources */,
 				1E8D4E372A4A6E2600ABACEA /* Frameworks */,
 				1E8D4E382A4A6E2600ABACEA /* Resources */,
+				8D9BE94504D6C9AA250153EB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,7 +254,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E8D4E712A4A720500ABACEA /* Alkatra-VariableFont_wght.ttf in Resources */,
+				1E8D4E6C2A4A717000ABACEA /* Colors.xcassets in Resources */,
+				1E8D4E6E2A4A717E00ABACEA /* Localizable.strings in Resources */,
 				1E8D4E4A2A4A6E2700ABACEA /* LaunchScreen.storyboard in Resources */,
+				1E8D4E622A4A704400ABACEA /* DefaultTableViewCell.xib in Resources */,
 				1E8D4E472A4A6E2700ABACEA /* Assets.xcassets in Resources */,
 				1E8D4E542A4A6E4A00ABACEA /* HomeViewController.xib in Resources */,
 			);
@@ -133,14 +266,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8D9BE94504D6C9AA250153EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift_Laboratory/Pods-Swift_Laboratory-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift_Laboratory/Pods-Swift_Laboratory-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swift_Laboratory/Pods-Swift_Laboratory-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C21051614332F08276E543E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swift_Laboratory-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1E8D4E362A4A6E2600ABACEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1E8D4E3E2A4A6E2600ABACEA /* AppDelegate.swift in Sources */,
+				1E8D4E662A4A714E00ABACEA /* Assets.swift in Sources */,
+				1E8D4E642A4A70A400ABACEA /* DefaultModel.swift in Sources */,
 				1E8D4E402A4A6E2600ABACEA /* SceneDelegate.swift in Sources */,
+				1E8D4E5E2A4A702B00ABACEA /* DefaultViewModel.swift in Sources */,
 				1E8D4E532A4A6E4A00ABACEA /* HomeViewController.swift in Sources */,
+				1E8D4E612A4A704400ABACEA /* DefaultTableViewCell.swift in Sources */,
+				1E8D4E6A2A4A716100ABACEA /* Fonts.swift in Sources */,
+				1E8D4E682A4A715B00ABACEA /* LocalizableStrings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +389,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -262,7 +443,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -274,6 +455,7 @@
 		};
 		1E8D4E4F2A4A6E2700ABACEA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 582054BC86E262BBDB22B5BD /* Pods-Swift_Laboratory.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -281,7 +463,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7LQTQ6NMLH;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Swift_Laboratory/Info.plist;
+				INFOPLIST_FILE = Swift_Laboratory/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -301,6 +483,7 @@
 		};
 		1E8D4E502A4A6E2700ABACEA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD91C141781CB6F84993E405 /* Pods-Swift_Laboratory.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -308,7 +491,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7LQTQ6NMLH;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Swift_Laboratory/Info.plist;
+				INFOPLIST_FILE = Swift_Laboratory/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
