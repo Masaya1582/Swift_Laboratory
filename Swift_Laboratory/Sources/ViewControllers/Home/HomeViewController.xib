@@ -5,11 +5,15 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="Swift_Laboratory" customModuleProvider="target">
             <connections>
+                <outlet property="dateLabel" destination="sgt-T6-yaD" id="ikp-FD-E8v"/>
+                <outlet property="datePicker" destination="3Jd-Yv-qhV" id="E8m-f9-Fcb"/>
+                <outlet property="registerButton" destination="tc1-1g-DDj" id="cMn-Ma-tTY"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -17,9 +21,55 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sgt-T6-yaD">
+                    <rect key="frame" x="24" y="119" width="345" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28" id="0ay-hu-FaP"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="3Jd-Yv-qhV">
+                    <rect key="frame" x="0.0" y="267" width="393" height="160"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="160" id="C3S-JR-a01"/>
+                    </constraints>
+                </datePicker>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tc1-1g-DDj">
+                    <rect key="frame" x="48" y="587" width="297" height="48"/>
+                    <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="BdR-Ha-ZLC"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="決定"/>
+                    <connections>
+                        <action selector="setNotificationAction:" destination="-1" eventType="touchUpInside" id="yBK-8h-HuB"/>
+                    </connections>
+                </button>
+            </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="tc1-1g-DDj" firstAttribute="top" secondItem="3Jd-Yv-qhV" secondAttribute="bottom" constant="160" id="GYe-Nc-wCI"/>
+                <constraint firstItem="tc1-1g-DDj" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="48" id="GyX-aE-flK"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="tc1-1g-DDj" secondAttribute="trailing" constant="48" id="Jgg-hr-LRs"/>
+                <constraint firstItem="sgt-T6-yaD" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="60" id="Lkh-FZ-wtC"/>
+                <constraint firstItem="3Jd-Yv-qhV" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Msf-Wu-HE9"/>
+                <constraint firstAttribute="trailing" secondItem="3Jd-Yv-qhV" secondAttribute="trailing" id="gdR-5r-NAh"/>
+                <constraint firstItem="sgt-T6-yaD" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="nh8-al-Mn7"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="sgt-T6-yaD" secondAttribute="trailing" constant="24" id="xG9-l3-ljU"/>
+                <constraint firstItem="3Jd-Yv-qhV" firstAttribute="top" secondItem="sgt-T6-yaD" secondAttribute="bottom" constant="120" id="ygJ-m5-4DK"/>
+            </constraints>
             <point key="canvasLocation" x="138" y="20"/>
         </view>
     </objects>
+    <resources>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>
